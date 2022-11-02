@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/relative_Layout2"
+    android:layout_width="fill_parent"
+    android:layout_height="150dp"
+    android:padding="6dip"
+    android:background="@drawable/selector"
+    android:clickable="true"
+    android:focusable="true">
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/profile_pic"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginRight="6dip"
+        android:src="@mipmap/ic_launcher" />
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/profile_name"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignWithParentIfMissing="true"
+        android:layout_toRightOf="@id/profile_pic"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="@color/black" />
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/firstLine"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignWithParentIfMissing="true"
+        android:layout_toRightOf="@id/profile_pic"
+        android:textSize="17sp"
+        android:layout_marginTop="55dp"
+        android:textColor="@color/black" />
+
+
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/edit_review"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:clickable="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="75dp"
+        android:layout_marginLeft="175dp"
+        android:layout_toRightOf="@id/profile_pic"
+        android:src="@drawable/ic_edit_36" />
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/delete_reviews"
+        android:clickable="true"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+
+        android:layout_marginTop="75dp"
+
+        android:src="@drawable/ic_baseline_delete_24" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/dateEdited"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_alignWithParentIfMissing="true"
+        android:layout_toRightOf="@id/profile_pic"
+        android:textColor="#FF757575"
+        android:layout_marginTop="100dp"
+        android:layout_marginLeft="155dp"
+        android:textStyle="italic"
+        android:textSize="15sp" />
+</RelativeLayout>

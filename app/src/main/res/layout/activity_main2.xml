@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+
+    <com.google.android.material.button.MaterialButtonToggleGroup
+        android:id="@+id/toggleButtonGroup"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        app:checkedButton="@id/all_reviews"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        app:singleSelection="true">
+        <com.google.android.material.button.MaterialButton
+            style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+            android:id="@+id/all_reviews"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#FFF4511E"
+            android:textColor="@color/white"
+            android:text="All reviews" />
+        <com.google.android.material.button.MaterialButton
+            style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+            android:id="@+id/my_reviews"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#FFFFCC80"
+            android:textColor="@color/black"
+            android:text="My reviews" />
+    </com.google.android.material.button.MaterialButtonToggleGroup>
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/fab"
+            android:clickable="true"
+            android:focusable="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|right"
+            app:backgroundTint="#89AB0D"
+            app:tint="@color/white"
+            app:maxImageSize="36dp"
+            android:src="@drawable/ic_edit_36"
+            android:contentDescription="@string/add_reviews"
+            android:layout_margin="16dp"
+            tools:ignore="MissingConstraints" />
+        <androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp">
+
+            <view class="androidx.recyclerview.widget.RecyclerView"
+                android:id="@+id/relative_Layout2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scrollbars="vertical" />
+        </androidx.appcompat.widget.LinearLayoutCompat>
+    </FrameLayout>
+</LinearLayout>

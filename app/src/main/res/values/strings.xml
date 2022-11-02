@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">Sing\'s RestaurantReview</string>
+    <string name="action_settings">Settings</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="description">This is the description of each restaurant</string>
+    <string name="please_rate">Please rate: </string>
+    <string name="address">Address of each restaurant </string>
+    <string name="add_reviews">Add reviews</string>
+    <string name="search">Search restaurant</string>
+
+    <string name="restaurant1">Paris Cafe</string>
+    <!--string name="app_name">RestaurantReviewCS306</string-->
+    <string name="restaurant2">Tortilla Place</string>
+    <string name="restaurant3">Pits and Pastries</string>
+    <string name="restaurant4">Nandos</string>
+    <string name="restaurant5">Big Place</string>
+
+    <string name="alfa_info">Italian motor manufacturer Alfa Romeo has participated many times in Formula One. It currently participates as Alfa Romeo Racing while being operated by Sauber Motorsport AG. The brand has competed in motor racing as both a constructor and engine supplier sporadically between 1950 and 1987, and later as a commercial partner since 2015. The company\'s works drivers won the first two World Drivers\' Championships in the pre-war Alfetta: Nino Farina in 1950; and Juan Manuel Fangio in 1951. Following these successes Alfa Romeo withdrew from Formula One.</string>
+    <string name="msg">are the best!</string>
+
+
+    <string name="start">Tap an item from action bar menu</string><string name="link">The Link was clicked</string><string name="logoff">Logoff was clicked</string><string name="profile">Profile Icon was clicked</string><string name="refresh">Refresh Icon was clicked</string><string name="settings_xml">Settings</string><string name="refresh_xml">Refresh</string><string name="log_xml">Log Off</string><string name="profile_xml">Profile Page</string><string name="linked">Linked Accounts</string><string name="movTitle">Movies Screen</string><string name="gameTitle">Games Screen</string><string name="tvTitle">TV Screen</string><string-array name="tabTitles"><item>Top TV Shows</item><item>Top Games</item><item>Top Movies</item></string-array>
+
+    <string name="restaurant1_R">Just some random reviews </string>
+    <!--string name="app_name">RestaurantReviewCS306</string-->
+    <string name="restaurant2_R">Just some random reviews</string>
+    <string name="restaurant3_R">Just some random reviews</string>
+    <string name="restaurant4_R">Just some random reviews</string>
+    <string name="restaurant5_R">Just some random reviews</string>
+    <string name="restaurant6_R">Just some random reviews</string>
+    <string name="restaurant7_R">Just some random reviews</string>
+    <string name="restaurant8_R">Just some random reviews</string>
+
+
+
+</resources>

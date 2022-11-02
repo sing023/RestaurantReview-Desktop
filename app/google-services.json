@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1055032136603",
+    "project_id": "sing-restaurant-review",
+    "storage_bucket": "sing-restaurant-review.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1055032136603:android:7e811ce5baae1284e7c73e",
+        "android_client_info": {
+          "package_name": "com.example.restaurantreview"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1055032136603-l0ecs3d0d1p2liu95mfeddekthtuogeu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCIeqi-ZVuJaTzmjDDOoUswuNvUTErMcQg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1055032136603-l0ecs3d0d1p2liu95mfeddekthtuogeu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

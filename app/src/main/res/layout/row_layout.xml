@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="300dp"
+    android:padding="6dip"
+    android:elevation="200dp"
+    android:background="@drawable/selector"
+    android:clickable="true"
+    android:focusable="true"
+    android:onClick="openActivity2">
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/imgView"
+        android:layout_width="100dp"
+        android:layout_height="400dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginRight="6dip"
+        android:src="@mipmap/ic_launcher"
+        android:onClick="openActivity2"
+    />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/firstLine"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignWithParentIfMissing="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_toRightOf="@id/imgView"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/location_icon"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginRight="6dip"
+        android:src="@drawable/location" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/description"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignWithParentIfMissing="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="55dp"
+        android:layout_toRightOf="@id/imgView"
+        android:textSize="15sp"
+        android:textStyle="italic" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/address"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignWithParentIfMissing="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="195dp"
+        android:layout_toRightOf="@id/imgView"
+        android:textColor="@color/black"
+        android:textSize="15sp" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/given_ratings"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignWithParentIfMissing="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="151dp"
+        android:layout_toRightOf="@id/imgView"
+        android:textColor="@color/black"
+        android:textSize="15sp"
+        android:textStyle="bold" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/please_rate"
+        android:layout_width="75dp"
+        android:layout_height="wrap_content"
+        android:layout_alignWithParentIfMissing="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="95dp"
+        android:layout_marginLeft="95dp"
+        android:layout_marginTop="150dp"
+        android:layout_marginEnd="95dp"
+        android:layout_marginRight="110dp"
+        android:gravity="left"
+        android:textColor="@color/black"
+        android:textSize="13sp"
+        android:textStyle="bold" />
+    <androidx.appcompat.widget.AppCompatRatingBar
+        android:id="@+id/simpleRatingBar"
+        style="?android:attr/ratingBarStyleSmall"
+        android:isIndicator="false"
+        android:max="5"
+        android:stepSize="1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight='true'
+        android:progressTint="#fbc02d"
+        android:layout_alignParentBottom="true"
+        tools:ignore="MissingClass" />
+</RelativeLayout>
